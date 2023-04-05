@@ -28,7 +28,7 @@ SlashCmdList["LOGS"] = function(msg)
 
     -- Display the score to the user
     if score > 0 then
-      print(characterName .. "의 현재 점수는 " .. tostring(score).format("%g",string.format("%.1f",v)) .. "점 입니다.")
+      print(characterName .. "의 현재 점수는 " .. string.format("%g",string.format("%.1f",tostring(score))) .. "점 입니다.")
     else
       print(characterName .. "에 대한 로그를 찾을 수 없어요.")
     end
