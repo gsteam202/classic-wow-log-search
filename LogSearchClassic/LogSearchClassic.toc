@@ -1,0 +1,6 @@
+## Interface: 30401
+## Author: jihun202
+## Title: LogSearchClassic v1.0.0
+## Notes: 캐릭터 로그를 검색해주는 애드온 입니다.
+## Version : v1.0.0
+LogSearchClassic.lua
